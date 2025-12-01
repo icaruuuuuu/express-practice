@@ -3,5 +3,7 @@ get() {
 }
 
 post() {
-	curl -X POST -H $1 -d $2 "http://localhost:3000/$3"
+	echo "sending post to $1"
+	curl -X POST -H 'Content-Type: application/json' -d $2 "http://localhost:3000/$1"
+	echo ""
 }

@@ -1,4 +1,5 @@
 export function lower(x) {
+	console.log(x);
 	return x.toLowerCase();
 }
 
