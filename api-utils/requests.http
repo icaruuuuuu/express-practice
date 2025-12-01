@@ -18,8 +18,16 @@ Content-Type: application/json
 
 ### Minimum
 
-GET http://127.0.0.1:3000/util/number/minimum/?input=10,1,100 HTTP/1.1
+POST http://127.0.0.1:3000/util/number/minimum/
+Content-Type: application/json
+{
+	"list": "[10, 1, 100]"
+}
 
 ### Maximum
 
-GET http://127.0.0.1:3000/util/number/maximum/?input=10,1,100 HTTP/1.1
+POST http://127.0.0.1:3000/util/number/maximum/
+Content-Type: application/json
+{
+	"list": "[10, 1, 100]"
+}
