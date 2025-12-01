@@ -1,3 +1,4 @@
+#!/bin/bash
 get() {
 	curl "http://localhost:3000/$1"
 }
