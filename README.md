@@ -5,7 +5,7 @@ This repository serves as programming practice for Express JS
 ### Running the server
 
 ```sh
-cd hello-api
+cd hello-api # OR api-utils
 npm i
 npm start
 ```
