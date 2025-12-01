@@ -15,7 +15,7 @@ You can open the requests.http file in any of the API directories in VScode. as 
 ### Testing through bash
 The root of this respository contains a "requests" script, written in bash, that simplifies the process of using curl.
 
-- Note that, if when using post, you can create a json file to store the data you want to send so you can easily use the requests script
+- Note that, when using post, you can create a json file to store the data you want to send so you can easily use the requests script
 
 To use the script:
 ```sh
